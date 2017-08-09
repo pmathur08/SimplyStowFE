@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nolistings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#dcdcdc"
+        android:text="You don't have any active listings. Would you want to create one?"/>
+
+    <Button
+        android:id="@+id/create"
+        android:layout_below="@id/nolistings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Listing"
+        android:layout_centerInParent="true"
+        android:onClick="listInfo"/>
+
+</RelativeLayout>
